@@ -4,7 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #ffdde1;
+    /* Gradient from Sky Blue to Misty Rose */
+    background: linear-gradient(135deg, #e0f2fe 0%, #fce7f3 100%);
     font-family: 'Arial', sans-serif;
     text-align: center;
 }
