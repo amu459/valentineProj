@@ -14,5 +14,5 @@ function growYes() {
 function celebrate() {
     document.getElementById('question').innerText = "YAY! See you on Valentine's! 🥰";
     document.getElementById('buttons').style.display = 'none';
-    document.getElementById('mainGif').src = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGY5NGVjdHBjajNoOTlxdTZtMHZzY2djc3F3N2NzbzR6eW01c203dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vDhDcIEmShbUI/giphy.gif"; // Happy cat GIF
+    document.getElementById('mainGif').src = "https://giphy.com/embed/HJibfnd7xqk5hAMD4v" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/love-kiss-hearts-HJibfnd7xqk5hAMD4v"; // Happy cat GIF
 }
