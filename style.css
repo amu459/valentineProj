@@ -26,4 +26,17 @@ button {
 }
 #yesButton { background-color: #28a745; color: white; }
 #noButton { background-color: #dc3545; color: white; }
-#mainGif { margin-top: 20px; max-width: 250px; border-radius: 10px; }
+#buttons {
+    position: relative;
+    z-index: 10; /* This pulls the buttons to the front */
+}
+
+#mainGif {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none; /* This makes the image "unclickable" so it can't block buttons */
+}
